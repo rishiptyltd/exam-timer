@@ -1,0 +1,33 @@
+html,
+body {
+    height: 100vh;
+}
+
+.wrapper {
+    height: 100%;
+    padding: 1rem;
+    display: grid;
+    grid-template-rows: 90% 10%;
+    gap: 1vh;
+}
+
+.timers {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    gap: 1vh;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

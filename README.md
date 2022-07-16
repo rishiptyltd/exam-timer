@@ -6,3 +6,4 @@ Clone the repository to any directory, and ensure Node and NPM are installed on 
 ```js
 npm install
 ```
+After installation of all the necessary packages, simply run any of the scripts in `package.json` to debug, start or test the program.

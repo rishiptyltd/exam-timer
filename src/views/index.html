@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Exam Timer</title>
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+        <link rel="stylesheet" href="./styles/bootstrap.css">
+        <link rel="stylesheet" href="./styles/bootstrap-icons.css">
+        <link rel="stylesheet" href="./styles/main.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <div class="timers">
+                <div class="card text-bg-light">
+                    <div class="card-body">
+                        <h3 class="card-title">English Advanced AP4 Paper 1</h3>
+                        <h6>Time Remaining</h6>
+                        <h1>hh:mm:ss</h1>
+                        <div class="alert alert-info"><i class="bi bi-hourglass-split"></i> This exam will begin
+                            shortly.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-secondary">Pause</button>
+                    </div>
+                </div>
+                <div class="card text-bg-light">
+                    <div class="card-body">
+                        <h3 class="card-title">English Standard AP4 Paper 1</h3>
+                        <h6>Time Remaining</h6>
+                        <h1>hh:mm:ss</h1>
+                        <div class="alert alert-info"><i class="bi bi-hourglass-split"></i> Reading time is in progress.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-secondary">Pause</button>
+                    </div>
+                </div>
+                <div class="card text-bg-light">
+                    <div class="card-body">
+                        <h3 class="card-title">English Studies AP4</h3>
+                        <h6>Time Remaining</h6>
+                        <h1>hh:mm:ss</h1>
+                        <div class="alert alert-info"><i class="bi bi-hourglass-split"></i> Writin time is in progress.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-secondary">Pause</button>
+                    </div>
+                </div>
+                <div class="card text-bg-light">
+                    <div class="card-body">
+                        <h3 class="card-title">EAL/D AP4 Paper 1</h3>
+                        <h6>Time Remaining</h6>
+                        <h1>hh:mm:ss</h1>
+                        <div class="alert alert-info"><i class="bi bi-hourglass-split"></i> Reading time is in progress.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-secondary">Pause</button>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <div class="left">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text" id="time">Time</p>
+                            <p class="card-text" id="date">Date</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <button class="btn btn-danger">Start All Timers</button>
+                    <button class="btn btn-success">New Timer</button>
+                </div>
+            </footer>
+        </div>
+        <script src="./scripts/datetime.js"></script>
+    </body>
+
+</html>
